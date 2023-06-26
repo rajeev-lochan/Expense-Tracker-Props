@@ -17,6 +17,8 @@ function CardHeaderExpand({ importDataDetail, reset, expenseDetail }) {
     }
   }, [expenseDetail]);
 
+  //validation
+
   const handleTitleChange = (e) => {
     const titleValue = e.target.value;
     setTitle(titleValue);
